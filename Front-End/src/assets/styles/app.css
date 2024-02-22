@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap");
+@import "./components/index.css";
+@import "./template/index.css";
+@import "./vendors/index.css";
+@import "./tailwind/index.css";
+@import "./docs/index.css";
+@import "rsuite/dist/rsuite.min.css";
+
+
+:where(.css-dev-only-do-not-override-gzal6t).ant-btn-primary{
+      color: #fff;
+    background: #1677ff;
+    box-shadow: 0 2px 0 rgba(5, 145, 255, 0.1);
+}
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! do not delete this comment code  */
+/* .custom-search input {
+  height: 38px;
+}
+
+.custom-search span button {
+  height: 38px !important;
+} */
+
+
+.custom-search input {
+  height: 28px;
+}
+
+.custom-search span button {
+  height: 38px !important;
+}
+
+
+.custom-small-date-picker .rs-input-group input {
+  font-size: 12px !important; /* Adjust the font size as needed */
+}

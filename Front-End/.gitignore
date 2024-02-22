@@ -1,0 +1,30 @@
+# Dependency directories
+node_modules/
+
+# Directory used by npm to store cache files
+.npm/
+
+# Directory used by yarn to store cache files
+.yarn/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment variables file
+.env
+
+# Editor-specific files
+.vscode/
+.idea/
+
+# Build output
+build/
+dist/
+
+# Log files
+*.log
+
+# Yarn v2
+.pnp.*
+.yarnrc.yml

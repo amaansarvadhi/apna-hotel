@@ -1,0 +1,46 @@
+# Dependency directories
+node_modules/
+
+# Directory used by npm/yarn to store cache files
+.npm/
+.yarn/
+yarn-error.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment variables file
+.env
+
+# Editor-specific files
+.vscode/
+.idea/
+
+# Build output
+dist/
+out/
+build/
+
+# Log files
+*.log
+
+# Package lock files
+package-lock.json
+yarn.lock
+
+# Local configuration files
+*.config.js
+
+# Dependency directories
+pnp/
+
+# Debugging files
+.debug/
+
+# Coverage directory
+coverage/
+.nyc_output/
+
+# Production build output
+build/
